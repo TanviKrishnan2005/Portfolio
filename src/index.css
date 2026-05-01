@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+/* 🌿 Base */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, sans-serif;
+  background: #FAF7F2;
+  color: #3B2F2F;
+}
+
+/* 🎨 Theme (Cherry Red + Beige) */
+:root {
+  --primary: #7F1D1D;
+  --accent: #B91C1C;
+  --bg: #FAF7F2;
+  --border: #E5DADA;
+  --text: #3B2F2F;
+  --muted: #6B4F4F;
+}
+
+/* ✨ Modal animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.25s ease-out;
+}
+
+/* 🎨 Background pattern */
+.bg-pattern {
+  background-image: radial-gradient(#7F1D1D 0.8px, transparent 0.8px);
+  background-size: 18px 18px;
+  opacity: 0.18;
+}
+
+/* 💅 Smooth interactions */
+button,
+a {
+  transition: all 0.2s ease;
+}
+
+button:hover,
+a:hover {
+  transform: scale(1.04);
+}
+
+/* 🧁 Card hover */
+.card-hover {
+  transition: all 0.25s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
