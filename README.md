@@ -2,7 +2,7 @@
 
 A modern, interactive portfolio showcasing my full-stack projects, real-time systems, and backend-focused development work.
 
-🔗 Live: https://your-portfolio.vercel.app  
+🔗 Live: https://tanvi-portfolio-blush.vercel.app/
 📂 GitHub: https://github.com/TanviKrishnan2005  
 
 ---
