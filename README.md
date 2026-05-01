@@ -1,16 +1,74 @@
-# React + Vite
+# 🌐 Tanvi Lekshmi — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive portfolio showcasing my full-stack projects, real-time systems, and backend-focused development work.
 
-Currently, two official plugins are available:
+🔗 Live: https://your-portfolio.vercel.app  
+📂 GitHub: https://github.com/TanviKrishnan2005  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🧠 About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I am a full-stack developer focused on building scalable backend systems and real-time applications.
 
-## Expanding the ESLint configuration
+This portfolio highlights my work in:
+- Real-time systems (WebSockets)
+- REST API design
+- Full-stack development
+- Machine learning systems
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- Interactive project showcase (modal-based UI)
+- Clean and responsive design
+- Subtle aesthetic UI with cherry red & beige theme
+- Smooth animations and modern UX
+- Live demo and GitHub integration for projects
+
+---
+
+## 📂 Projects Highlighted
+
+### 💻 CodeCollab
+Real-time collaborative coding platform with multi-user synchronization using WebSockets.
+
+- Live: https://code-editor-sigma-orpin.vercel.app  
+- Tech: React, Node.js, Socket.io  
+
+---
+
+### 🛍️ ELYSIAN
+Full-stack e-commerce system with secure Stripe-based payment workflows.
+
+- Tech: React, Node.js, MongoDB, Stripe  
+
+---
+
+### 🤖 HybridDemand AI
+Real-time demand forecasting and resource allocation system using ML.
+
+- Live: https://demand-forecasting-system-xkfwyws6pker6laf6ji8zh.streamlit.app/  
+- Tech: FastAPI, XGBoost, Kafka, Streamlit  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Tailwind CSS  
+- **Backend:** Node.js, Express  
+- **Real-time:** Socket.io  
+- **Databases:** MongoDB, MySQL  
+- **ML:** Python, Scikit-learn, XGBoost  
+- **Deployment:** Vercel, Render  
+
+---
+
+## ⚙️ Setup & Run Locally
+
+```bash
+git clone https://github.com/YOUR_USERNAME/portfolio.git
+cd portfolio
+npm install
+npm run dev
