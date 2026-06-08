@@ -1,9 +1,9 @@
 import { useState } from "react"
 
 const skills = [
-  "React","Tailwind CSS","Node.js","Express","MongoDB","JavaScript",
-  "REST APIs","Socket.IO","Git & GitHub","C++","Python","Java",
-  "HTML","CSS","MySQL","Data Structures and Algorithms",
+  "React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "JavaScript",
+  "REST APIs", "Socket.IO", "Git & GitHub", "C++", "Python", "Java",
+  "HTML", "CSS", "MySQL", "Data Structures and Algorithms",
 ]
 
 const projects = [
@@ -23,6 +23,7 @@ const projects = [
       "Built a full-stack application with REST APIs for product, cart, and order management. Integrated Stripe PaymentIntent flow for secure transactions and designed modular backend services focusing on scalability.",
     tech: ["React", "Node.js", "MongoDB", "Stripe", "REST APIs"],
     github: "https://github.com/TanviKrishnan2005/ELYSIAN",
+    live:"https://elysian-ebon.vercel.app/",
   },
   {
     name: "HybridDemand AI",
@@ -67,13 +68,13 @@ export default function App() {
         <section className="bg-white p-8 rounded-xl border border-[#E5DADA] shadow-sm">
           <h2 className="text-xl font-semibold text-[#7F1D1D]">About</h2>
           <p className="mt-3 text-[#6B4F4F]">
-  I am a full-stack developer focused on building scalable backend systems and real-time applications. 
-  I have hands-on experience designing REST APIs, implementing WebSocket-based communication, and 
-  developing end-to-end applications from frontend to deployment.
+            I am a full-stack developer focused on building scalable backend systems and real-time applications.
+            I have hands-on experience designing REST APIs, implementing WebSocket-based communication, and
+            developing end-to-end applications from frontend to deployment.
 
-  I enjoy solving system-level problems such as low-latency data flow, multi-user synchronization, 
-  and building reliable, production-ready applications.
-</p>
+            I enjoy solving system-level problems such as low-latency data flow, multi-user synchronization,
+            and building reliable, production-ready applications.
+          </p>
         </section>
 
         {/* SKILLS */}
