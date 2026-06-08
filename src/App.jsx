@@ -14,7 +14,7 @@ const projects = [
       "Designed a real-time collaborative system using Socket.io enabling multi-user editing. Implemented room-based architecture, event broadcasting, and efficient state sync. Solved production issues like duplicate events, CORS, and deployment across Vercel and Render.",
     tech: ["React", "Node.js", "Socket.io", "WebSockets"],
     github: "https://github.com/TanviKrishnan2005/code_editor",
-    live: "https://code-editor-sigma-orpin.vercel.app",
+    live: "https://code-editor-sigma-orpin.vercel.app/",
   },
   {
     name: "ELYSIAN",
