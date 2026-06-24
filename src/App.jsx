@@ -54,7 +54,7 @@ const projects = [
     "Built a full-stack document intelligence platform that enables users to upload PDF, DOCX, and TXT files and ask natural language questions about their content. Implemented document parsing, text chunking, cosine similarity-based retrieval, user authentication, chat history, and document management using Python, SQLite, and JavaScript. Deployed the application on Render with automated GitHub-based CI/CD.",
   tech: ["Python", "SQLite", "JavaScript", "HTML", "CSS", "PyPDF", "Python-Docx", "Render"],
   github: "https://github.com/TanviKrishnan2005/DOCUSense",
-  live: "https://github.com/TanviKrishnan2005/DOCUSense",
+  live: "https://docusense-qa41.onrender.com",
 },
 ]
 
