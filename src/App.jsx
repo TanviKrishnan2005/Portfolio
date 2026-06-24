@@ -73,7 +73,7 @@ export default function App() {
             Tanvi Lekshmi RM
           </h1>
           <p className="text-lg text-[#6B4F4F]">
-            Full Stack Developer | Real-Time Systems | Scalable Applications
+            Computer Science Undergraduate | Software Development | Data Science | AI
           </p>
         </section>
 
