@@ -1,10 +1,23 @@
 import { useState } from "react"
 
 const skills = [
-  "React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "JavaScript",
-  "REST APIs", "Socket.IO", "Git & GitHub", "C++", "Python", "Java",
-  "HTML", "CSS", "MySQL", "Data Structures and Algorithms",
-]
+  "C++",
+  "Python",
+  "JavaScript",
+  "SQL",
+  "React",
+  "Node.js",
+  "Express.js",
+  "MongoDB",
+  "MySQL",
+  "REST APIs",
+  "Git & GitHub",
+  "Pandas",
+  "Scikit-learn",
+  "FastAPI",
+  "Machine Learning",
+  "Data Structures & Algorithms"
+];
 
 const projects = [
   {
@@ -68,12 +81,9 @@ export default function App() {
         <section className="bg-white p-8 rounded-xl border border-[#E5DADA] shadow-sm">
           <h2 className="text-xl font-semibold text-[#7F1D1D]">About</h2>
           <p className="mt-3 text-[#6B4F4F]">
-            I am a full-stack developer focused on building scalable backend systems and real-time applications.
-            I have hands-on experience designing REST APIs, implementing WebSocket-based communication, and
-            developing end-to-end applications from frontend to deployment.
+            I am a Computer Science undergraduate passionate about Software Development, Data Science, and Artificial Intelligence. I have experience building full-stack web applications, developing machine learning solutions, and working with modern technologies to solve real-world problems.
 
-            I enjoy solving system-level problems such as low-latency data flow, multi-user synchronization,
-            and building reliable, production-ready applications.
+From designing user-centric applications to analyzing data and building predictive models, I enjoy creating impactful solutions while continuously learning and exploring new technologies
           </p>
         </section>
 
