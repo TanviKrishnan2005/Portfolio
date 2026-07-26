@@ -56,6 +56,26 @@ const projects = [
   github: "https://github.com/TanviKrishnan2005/DOCUSense",
   live: "https://docusense-qa41.onrender.com",
 },
+
+{
+  name: "RetainAI",
+  desc: "AI-powered customer churn prediction platform with interactive analytics and explainable machine learning.",
+  details:
+    "Designed and deployed an end-to-end customer churn prediction system using XGBoost, achieving the best performance among Logistic Regression, Random Forest, and XGBoost models. Implemented data preprocessing, feature engineering, model evaluation, SHAP explainability, and an interactive Streamlit dashboard for real-time churn prediction with confidence scores and probability insights.",
+  tech: [
+    "Python",
+    "Pandas",
+    "NumPy",
+    "Scikit-learn",
+    "XGBoost",
+    "SHAP",
+    "Matplotlib",
+    "Streamlit",
+    "Joblib"
+  ],
+  github: "https://github.com/TanviKrishnan2005/RetainAI",
+  live: "https://retainai-t.streamlit.app/",
+},
 ]
 
 const achievements = [
