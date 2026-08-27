@@ -21,6 +21,27 @@ const skills = [
 
 const projects = [
   {
+    name: "SupportCopilot",
+    desc: "AI-powered agentic customer support platform using hybrid RAG and intelligent tool routing.",
+    details:
+      "Built and deployed an end-to-end customer support agent using LangGraph, combining hybrid RAG with semantic search and BM25 for policy-based queries and database-backed tools for order tracking, refund eligibility, and support ticket creation. Implemented hallucination-safe responses, intent-based routing, automated evaluation, and edge-case handling through a FastAPI backend with a React frontend.",
+    tech: [
+      "Python",
+      "LangGraph",
+      "LangChain",
+      "FastAPI",
+      "FastEmbed",
+      "ChromaDB",
+      "BM25",
+      "SQLite",
+      "Groq",
+      "React",
+      "Vite"
+    ],
+    github: "https://github.com/TanviKrishnan2005/SupportCopilot-Agentic-RAG",
+    live: "https://support-copilot-agentic-rag.vercel.app/",
+  },
+  {
     name: "CodeCollab",
     desc: "Real-time collaborative coding platform with low-latency multi-user synchronization.",
     details:
@@ -36,7 +57,7 @@ const projects = [
       "Built a full-stack application with REST APIs for product, cart, and order management. Integrated Stripe PaymentIntent flow for secure transactions and designed modular backend services focusing on scalability.",
     tech: ["React", "Node.js", "MongoDB", "Stripe", "REST APIs"],
     github: "https://github.com/TanviKrishnan2005/ELYSIAN",
-    live:"https://elysian-ebon.vercel.app/",
+    live: "https://elysian-ebon.vercel.app/",
   },
   {
     name: "HybridDemand AI",
@@ -48,34 +69,34 @@ const projects = [
     live: "https://demand-forecasting-system-xkfwyws6pker6laf6ji8zh.streamlit.app/",
   },
   {
-  name: "DocuSense",
-  desc: "AI-powered document Q&A platform with document retrieval and semantic search.",
-  details:
-    "Built a full-stack document intelligence platform that enables users to upload PDF, DOCX, and TXT files and ask natural language questions about their content. Implemented document parsing, text chunking, cosine similarity-based retrieval, user authentication, chat history, and document management using Python, SQLite, and JavaScript. Deployed the application on Render with automated GitHub-based CI/CD.",
-  tech: ["Python", "SQLite", "JavaScript", "HTML", "CSS", "PyPDF", "Python-Docx", "Render"],
-  github: "https://github.com/TanviKrishnan2005/DOCUSense",
-  live: "https://docusense-qa41.onrender.com",
-},
+    name: "DocuSense",
+    desc: "AI-powered document Q&A platform with document retrieval and semantic search.",
+    details:
+      "Built a full-stack document intelligence platform that enables users to upload PDF, DOCX, and TXT files and ask natural language questions about their content. Implemented document parsing, text chunking, cosine similarity-based retrieval, user authentication, chat history, and document management using Python, SQLite, and JavaScript. Deployed the application on Render with automated GitHub-based CI/CD.",
+    tech: ["Python", "SQLite", "JavaScript", "HTML", "CSS", "PyPDF", "Python-Docx", "Render"],
+    github: "https://github.com/TanviKrishnan2005/DOCUSense",
+    live: "https://docusense-qa41.onrender.com",
+  },
 
-{
-  name: "RetainAI",
-  desc: "AI-powered customer churn prediction platform with interactive analytics and explainable machine learning.",
-  details:
-    "Designed and deployed an end-to-end customer churn prediction system using XGBoost, achieving the best performance among Logistic Regression, Random Forest, and XGBoost models. Implemented data preprocessing, feature engineering, model evaluation, SHAP explainability, and an interactive Streamlit dashboard for real-time churn prediction with confidence scores and probability insights.",
-  tech: [
-    "Python",
-    "Pandas",
-    "NumPy",
-    "Scikit-learn",
-    "XGBoost",
-    "SHAP",
-    "Matplotlib",
-    "Streamlit",
-    "Joblib"
-  ],
-  github: "https://github.com/TanviKrishnan2005/RetainAI",
-  live: "https://retainai-t.streamlit.app/",
-},
+  {
+    name: "RetainAI",
+    desc: "AI-powered customer churn prediction platform with interactive analytics and explainable machine learning.",
+    details:
+      "Designed and deployed an end-to-end customer churn prediction system using XGBoost, achieving the best performance among Logistic Regression, Random Forest, and XGBoost models. Implemented data preprocessing, feature engineering, model evaluation, SHAP explainability, and an interactive Streamlit dashboard for real-time churn prediction with confidence scores and probability insights.",
+    tech: [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Scikit-learn",
+      "XGBoost",
+      "SHAP",
+      "Matplotlib",
+      "Streamlit",
+      "Joblib"
+    ],
+    github: "https://github.com/TanviKrishnan2005/RetainAI",
+    live: "https://retainai-t.streamlit.app/",
+  },
 ]
 
 const achievements = [
@@ -112,7 +133,7 @@ export default function App() {
           <p className="mt-3 text-[#6B4F4F]">
             I am a Computer Science undergraduate passionate about Software Development, Data Science, and Artificial Intelligence. I have experience building full-stack web applications, developing machine learning solutions, and working with modern technologies to solve real-world problems.
 
-From designing user-centric applications to analyzing data and building predictive models, I enjoy creating impactful solutions while continuously learning and exploring new technologies
+            From designing user-centric applications to analyzing data and building predictive models, I enjoy creating impactful solutions while continuously learning and exploring new technologies
           </p>
         </section>
 
